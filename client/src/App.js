@@ -6,6 +6,7 @@ import {
 import Turnos from "./pages/Turnos";
 import Add from "./pages/Add";
 import Update from "./pages/Update";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/turnos" element={<Turnos/>}></Route>
           <Route path="/nuevo-turno" element={<Add/>}></Route>
           <Route path="/actualizar-turno" element={<Update/>}></Route>
+          <Route path="" element={<Home/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
