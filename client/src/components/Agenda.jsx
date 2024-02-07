@@ -2,12 +2,12 @@ import React from 'react'
 
 const Agenda = () => {
     return (
-      <div id="agenda-section">
+      <div id="agenda">
           <section className="text-center h-dvh flex flex-col justify-center">
             
-            <i className={"fa-solid fa-calendar-days text-8xl text-dr-blue-dark mb-10"}></i>
+            <i className={"select-none fa-solid fa-calendar-days text-8xl text-dr-blue-dark mb-10"}></i>
             <h1 className="text-3xl font-basic font-bold tracking-normal text-dr-black sm:text-5xl md:text-5xl md:leading-none">
-                <span className="block">Agendá una consulta</span>
+                <span className="block">Agendá tu consulta</span>
             </h1>
             <p
                 className="max-w-sm mx-auto mt-1 font-basic font-normal text-dr-gray-dark sm:mt-5 sm:text-md md:mt-5 md:text-xl sm:max-w-2xl md:max-w-2xl">

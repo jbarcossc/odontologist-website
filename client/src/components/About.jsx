@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-      <div id="about-section">
+      <div id="sobre-mi">
         <section className="pt-10 overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
           <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="grid items-center grid-cols-1 md:grid-cols-2">
@@ -25,7 +25,7 @@ const About = () => {
                 </p>
               </div>
               <div className="relative">
-                <img className="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png" alt="" />
+                <img className="select-none relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png" alt="" />
               </div>
             </div>
           </div>

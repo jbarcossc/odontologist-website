@@ -15,7 +15,8 @@ module.exports = {
       'dr-gray': {
         light: '#d8d8d8',
         dark: '#aaa7a7'
-      }
+      },
+      'dr-urgent': '#e11d47'
     },
     fontFamily: {
       basic: ["basic","sans-serif"],

@@ -18,7 +18,7 @@ const services = [
 
 const Services = () => {
     return (
-      <div id="services-section">
+      <div id="servicios">
 
         <section id="new-features" className="py-8 bg-dr-blue-dark sm:py-10 lg:py-16">
           <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -32,9 +32,9 @@ const Services = () => {
             <div className="grid grid-cols-2 mt-10 text-center sm:mt-16 sm:grid-cols-3 sm:gap-x-12 gap-y-12 md:grid-cols-5 md:gap-0 xl:mt-24">
               {/*Features*/}
                 {services.map((item) => (
-                  <div className="md:p-8 lg:p-14 flex flex-col justify-start items-center">
+                  <div key={item.name} className="md:p-8 lg:p-14 flex flex-col justify-start items-center">
                     <div className="w-14 h-14 rounded-full bg-dr-blue-light flex justify-center items-center">
-                      <i className={`fa-solid ${item.icon} text-3xl text-dr-white`}></i>
+                      <i className={`select-none fa-solid ${item.icon} text-3xl text-dr-white`}></i>
                     </div>
                     <h3 className="mt-12 text-xl font-basic text-dr-white">{item.name}</h3>
                   </div>
